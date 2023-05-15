@@ -1,0 +1,37 @@
+
+.chiara {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1.75fr;
+    grid-template-areas:
+        "area_1 area_2"
+        "area_1 area_3";
+    margin-inline: 20%;
+    gap: 1rem;
+}
+
+.chiara_item_3 {
+    grid-area: area_1;
+    justify-content: center;
+
+}
+
+.chiara_item_1 {
+    grid-area: area_2;
+    padding-top: 2rem;
+    color: #9a3c8eb2;
+
+}
+
+.chiara_item_2 {
+    grid-area: area_3;
+    color: #535353;
+    font-size: 1.2rem;
+
+}
+
+.chiara_item_3 img {
+    width: 300px;
+
+}

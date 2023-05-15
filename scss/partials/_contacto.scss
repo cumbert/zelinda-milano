@@ -1,0 +1,62 @@
+form {
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input,
+textarea {
+    width: 325%;
+}
+
+
+.floristeria_info {
+    display: block;
+    position: relative;
+    margin-top: 10%;
+
+}
+
+.contacto {
+    display: flex;
+    max-width: 2000px;
+    flex-direction: column;
+
+    .titles h2 {
+        font-family: 'Playfair Display', serif;
+        padding-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .titles h4 {
+        color: #ec9bd8;
+        font-size: 2rem;
+    }
+    
+    .titles p {
+        color: grey;
+        font-family: 'Anuphan', sans-serif;
+    
+    }
+
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: center;
+    width: 35%;
+    padding-left: 10rem;
+    padding-bottom: 4rem;
+
+}
+
+.formulario .box {
+    padding: 0.5rem
+}
+
+.formulario textarea {
+    padding: 6rem;
+    padding-left: 0;
+}
+

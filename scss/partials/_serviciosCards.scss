@@ -1,0 +1,98 @@
+.servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "item_1 item_2";
+    padding-top: 5rem;
+    grid-gap: 20px;
+    margin-inline: 5%;
+
+    .grid_item_servicios {
+        display: flex;
+        flex-direction: column;
+        background-color: #f5f3f3;
+        align-items: center;
+        text-align: center;
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            padding-top: 4rem;
+            padding-bottom: 1rem;
+            color: #9a3c8eb2;
+        }
+
+
+        p {
+            padding-inline: 1rem;
+            padding-bottom: 2rem;
+            font-size: 1.1rem;
+            color: #7c7777;
+        }
+
+        .carousel-item {
+            max-width: 100%;
+            height: auto;
+            padding: 3rem;
+
+        }
+
+        .servicios_iconos img {
+            width: 3rem;
+            padding-bottom: 2rem;
+            /* animation-name: ;
+            animation-duration: ;*/
+            animation-iteration-count: infinite;
+            /*animation-direction: alternate; */
+            -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+        }
+
+    }
+
+}
+
+
+@media (max-width:755px) {
+
+    .servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "item_1"
+            "item_2";
+        padding-top: 5rem;
+        grid-gap: 20px;
+        margin-inline: 5%;
+
+        .grid_item_servicios {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: .90rem;
+            }
+
+        }
+    }
+
+}
+
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

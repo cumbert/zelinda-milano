@@ -1,0 +1,117 @@
+.grid_contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "area_1 area_2 area_3";
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 2rem;
+    margin-inline: 5%;
+    align-items: center;
+
+}
+
+.grid_itm_1 {
+    grid-area: area_1;
+}
+
+.grid_itm_2 {
+    grid-area: area_2;
+
+    .social_icons {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+
+
+        .instagram_icon {
+            transition: 1s;
+            width: 3rem;
+        }
+
+        .instagram_icon:hover {
+            transform: scale(1.1);
+        }
+
+        .facebook_icon {
+            @extend .instagram_icon;
+        }
+
+        .facebook_icon:hover {
+            @extend .instagram_icon:hover;
+        }
+
+    }
+}
+
+.grid_itm_3 {
+    grid-area: area_3;
+}
+
+
+.direccion,
+.logo,
+.horario {
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        background-position: center;
+
+    }
+
+}
+
+
+
+
+
+.pie h4 {
+    font-size: 1.2rem;
+}
+
+.pie ul {
+    list-style: none;
+    text-align: center;
+}
+
+.parrafo1 {
+    margin-top: 250px;
+    background-color: green;
+}
+
+.contacto {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.logo img {
+    width: 300px;
+}
+
+
+@media (max-width: 1000px) {
+    .grid_contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "area_2" "area_1" "area_3";
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        gap: 2rem;
+        margin-inline: 5rem;
+        justify-items: center;
+
+
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+        background-position: center;
+
+    }
+
+}

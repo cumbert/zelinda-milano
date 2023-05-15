@@ -1,0 +1,317 @@
+$colorF: #ffffff;
+
+ .carrusel_index {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    opacity: 0.85;
+    margin-top: 5%;
+    position: relative;
+
+}  
+
+
+
+
+.carousel-contenedor {
+    display: flex;
+    position: relative;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+
+.decoracion_floral {
+
+      h2 {
+        color: $colorF ;
+        font-weight: 300;
+        position: absolute;
+        top: 30%;
+        left: 25%; 
+
+    }
+
+    p {
+        color: $colorF;
+        font-weight: 50;
+        position: absolute;
+        top: 40%;
+        left: 13%;
+
+    }
+
+    a {
+        color: $colorF;
+        font-weight: 0;
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+}
+
+.ramo_personalizado {
+
+    h2 {
+        color:$colorF;
+        font-weight: 300;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+
+    p {
+        color:$colorF;
+        font-weight: 50;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+
+    }
+
+    a {
+        color:$colorF;
+        font-weight: 0;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        text-decoration: none;
+
+
+    }
+
+}
+
+.tocados_prendidos {
+
+
+    h2 {
+        color:$colorF;
+        font-weight: 300;
+        position: absolute;
+        top: 30%;
+        left: 33%;
+    }
+
+    p {
+        color:$colorF;
+        font-weight: 50;
+        position: absolute;
+        top: 40%;
+        left: 37%;
+    }
+
+    a {
+        color:$colorF;
+        font-weight: 0;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        text-decoration: none;
+
+
+    }
+
+    .img_carousel {
+        max-width: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 755px) {
+
+    .decoracion_floral {
+
+        justify-content: center;
+    }
+
+    .decoracion_floral h2 {
+        color:$colorF;
+        font-size: 17px;
+        position: absolute;
+        top: 30%;
+        /* left: 18%; */
+    }
+
+    .decoracion_floral p {
+        text-align: start;
+        color:$colorF;
+        font-size: 10px;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+
+    }
+
+    .decoracion_floral a {
+        color:$colorF;
+        font-size: 10px;
+        font-weight: 300;
+        position: absolute;
+        top: 65%;
+        left: 30%;
+        text-decoration: none;
+    }
+
+    .ramo_personalizado h2 {
+        color:$colorF;
+        font-size: 15px;
+        font-weight: 300;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+
+    .ramo_personalizado p {
+        color:$colorF;
+        font-size: 8px;
+        font-weight: 50;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+
+    }
+
+    .ramo_personalizado a {
+        color:$colorF;
+        font-size: 10px;
+        font-weight: 0;
+        position: absolute;
+        top: 60%;
+        left: 37%;
+        text-decoration: none;
+
+
+    }
+
+    .tocados_prendidos h2 {
+        color:$colorF;
+        font-size: 15px;
+        font-weight: 300;
+        position: absolute;
+        top: 30%;
+        left: 27%;
+    }
+
+    .tocados_prendidos p {
+        color:$colorF;
+        font-size: 8px;
+        font-weight: 50;
+        position: absolute;
+        top: 45%;
+        left: 33%;
+    }
+
+    .tocados_prendidos a {
+        color:$colorF;
+        font-size: 10px;
+        font-weight: 0;
+        position: absolute;
+        top: 60%;
+        left: 43%;
+        text-decoration: none;
+
+
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+    .decoracion_floral h2 {
+        color:$colorF;
+        font-size: 15px;
+        position: absolute;
+        top: 30%;
+        left: 18%;
+    }
+
+    .decoracion_floral p {
+        text-align: start;
+        color:$colorF;
+        font-size: 8px;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+
+    }
+
+    .decoracion_floral a {
+        color:$colorF;
+        font-size: 10px;
+        font-weight: 300;
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        text-decoration: none;
+    }
+
+    .ramo_personalizado h2 {
+        color:$colorF;
+        font-size: 15px;
+        font-weight: 300;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+
+    .ramo_personalizado p {
+        color:$colorF;
+        font-size: 8px;
+        font-weight: 50;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+
+    }
+
+    .ramo_personalizado a {
+        color:$colorF;
+        font-size: 10px;
+        font-weight: 0;
+        position: absolute;
+        top: 60%;
+        left: 37%;
+        text-decoration: none;
+
+
+    }
+
+    .tocados_prendidos h2 {
+        color:$colorF;
+        font-size: 15px;
+        font-weight: 300;
+        position: absolute;
+        top: 30%;
+        left: 27%;
+    }
+
+    .tocados_prendidos p {
+        color:$colorF;
+        font-size: 8px;
+        font-weight: 50;
+        position: absolute;
+        top: 45%;
+        left: 33%;
+    }
+
+    .tocados_prendidos a {
+        color:$colorF;
+        font-size: 10px;
+        font-weight: 0;
+        position: absolute;
+        top: 60%;
+        left: 43%;
+        text-decoration: none;
+
+
+    }
+
+}

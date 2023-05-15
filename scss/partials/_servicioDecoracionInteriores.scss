@@ -1,0 +1,38 @@
+.decoracion_interiores {
+    margin-inline: 5rem;
+    background-color: #f5f3f3;
+
+}
+
+.decoracion_interiores h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #9a3c8eb2;
+
+}
+
+.decoracion_interiores p {
+    font-size: 18px;
+    padding: 2rem;
+    color: #535353;
+
+}
+
+@media (max-width:755px) {
+
+    .decoracion_interiores {
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p{
+            font-size: .9rem;
+        }
+
+
+    }
+}

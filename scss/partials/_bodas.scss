@@ -1,0 +1,73 @@
+.decoracion {
+    margin-inline: 5%;
+    padding-top: 5rem;
+}
+
+
+.decoracion,
+.ramo_novia,
+.tocado_prendido_pulsera {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.decoracion p::first-letter {
+    font-size: 5em;
+    float: left;
+    padding: 0.5rem 0.1em 0 0;
+    line-height: 0.6em;
+    color: black;
+}
+
+.decoracion p,
+.ramo_novia p,
+.tocado_prendido_pulsera p {
+    font-size: 18px;
+    padding-top: 2rem;
+    color: #535353;
+}
+
+.ramo_novia {
+    margin-inline: 5%;
+    padding-top: 3rem;
+
+}
+
+.tocado_prendido_pulsera {
+    margin-inline: 5%;
+    padding-top: 3rem;
+
+}
+
+.arreglos_bodas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "item_1 item_2";
+    padding-top: 2rem;
+    grid-gap: 20px;
+    margin-inline: 5%;
+}
+
+.grid_item {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f3f3;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .arreglos_bodas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr,1fr;
+        grid-template-areas:
+            "item_1"
+            "item_2";
+        padding-top: 2rem;
+        grid-gap: 20px;
+        margin-inline: 5%;
+    }
+}
+
