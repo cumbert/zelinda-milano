@@ -1,6 +1,6 @@
 $colorF: #ffffff;
 
- .carrusel_index {
+.carrusel_index {
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
@@ -8,9 +8,7 @@ $colorF: #ffffff;
     margin-top: 5%;
     position: relative;
 
-}  
-
-
+}
 
 
 .carousel-contenedor {
@@ -25,12 +23,12 @@ $colorF: #ffffff;
 
 .decoracion_floral {
 
-      h2 {
+    h2 {
         color: $colorF ;
         font-weight: 300;
         position: absolute;
         top: 30%;
-        left: 25%; 
+        left: 25%;
 
     }
 
@@ -57,7 +55,7 @@ $colorF: #ffffff;
 .ramo_personalizado {
 
     h2 {
-        color:$colorF;
+        color: $colorF;
         font-weight: 300;
         position: absolute;
         top: 30%;
@@ -65,7 +63,7 @@ $colorF: #ffffff;
     }
 
     p {
-        color:$colorF;
+        color: $colorF;
         font-weight: 50;
         position: absolute;
         top: 40%;
@@ -74,7 +72,7 @@ $colorF: #ffffff;
     }
 
     a {
-        color:$colorF;
+        color: $colorF;
         font-weight: 0;
         position: absolute;
         top: 50%;
@@ -90,7 +88,7 @@ $colorF: #ffffff;
 
 
     h2 {
-        color:$colorF;
+        color: $colorF;
         font-weight: 300;
         position: absolute;
         top: 30%;
@@ -98,7 +96,7 @@ $colorF: #ffffff;
     }
 
     p {
-        color:$colorF;
+        color: $colorF;
         font-weight: 50;
         position: absolute;
         top: 40%;
@@ -106,7 +104,7 @@ $colorF: #ffffff;
     }
 
     a {
-        color:$colorF;
+        color: $colorF;
         font-weight: 0;
         position: absolute;
         top: 50%;
@@ -132,7 +130,7 @@ $colorF: #ffffff;
     }
 
     .decoracion_floral h2 {
-        color:$colorF;
+        color: $colorF;
         font-size: 17px;
         position: absolute;
         top: 30%;
@@ -141,7 +139,7 @@ $colorF: #ffffff;
 
     .decoracion_floral p {
         text-align: start;
-        color:$colorF;
+        color: $colorF;
         font-size: 10px;
         position: absolute;
         top: 45%;
@@ -150,7 +148,7 @@ $colorF: #ffffff;
     }
 
     .decoracion_floral a {
-        color:$colorF;
+        color: $colorF;
         font-size: 10px;
         font-weight: 300;
         position: absolute;
@@ -160,7 +158,7 @@ $colorF: #ffffff;
     }
 
     .ramo_personalizado h2 {
-        color:$colorF;
+        color: $colorF;
         font-size: 15px;
         font-weight: 300;
         position: absolute;
@@ -169,7 +167,7 @@ $colorF: #ffffff;
     }
 
     .ramo_personalizado p {
-        color:$colorF;
+        color: $colorF;
         font-size: 8px;
         font-weight: 50;
         position: absolute;
@@ -179,7 +177,7 @@ $colorF: #ffffff;
     }
 
     .ramo_personalizado a {
-        color:$colorF;
+        color: $colorF;
         font-size: 10px;
         font-weight: 0;
         position: absolute;
@@ -191,7 +189,7 @@ $colorF: #ffffff;
     }
 
     .tocados_prendidos h2 {
-        color:$colorF;
+        color: $colorF;
         font-size: 15px;
         font-weight: 300;
         position: absolute;
@@ -200,7 +198,7 @@ $colorF: #ffffff;
     }
 
     .tocados_prendidos p {
-        color:$colorF;
+        color: $colorF;
         font-size: 8px;
         font-weight: 50;
         position: absolute;
@@ -209,7 +207,7 @@ $colorF: #ffffff;
     }
 
     .tocados_prendidos a {
-        color:$colorF;
+        color: $colorF;
         font-size: 10px;
         font-weight: 0;
         position: absolute;
@@ -225,36 +223,46 @@ $colorF: #ffffff;
 
 
 @media (max-width: 480px) {
-    .decoracion_floral h2 {
-        color:$colorF;
-        font-size: 15px;
-        position: absolute;
-        top: 30%;
-        left: 18%;
+
+    .decoracion_floral {
+
+        h2 {
+            color: $colorF;
+            font-size: 18px;
+            position: absolute;
+            top: 30%;
+            left: 15%;
+        }
+
+        p {
+            text-align: start;
+            color: $colorF;
+            font-size: 8px;
+            position: absolute;
+            top: 45%;
+            left: 8%;
+
+        }
+
+        a {
+            color: $colorF;
+            font-size: 10px;
+            font-weight: 300;
+            position: absolute;
+            top: 65%;
+            left: 30%;
+            text-decoration: none;
+        }
+
+
     }
 
-    .decoracion_floral p {
-        text-align: start;
-        color:$colorF;
-        font-size: 8px;
-        position: absolute;
-        top: 45%;
-        left: 8%;
 
-    }
 
-    .decoracion_floral a {
-        color:$colorF;
-        font-size: 10px;
-        font-weight: 300;
-        position: absolute;
-        top: 60%;
-        left: 30%;
-        text-decoration: none;
-    }
+
 
     .ramo_personalizado h2 {
-        color:$colorF;
+        color: $colorF;
         font-size: 15px;
         font-weight: 300;
         position: absolute;
@@ -263,7 +271,7 @@ $colorF: #ffffff;
     }
 
     .ramo_personalizado p {
-        color:$colorF;
+        color: $colorF;
         font-size: 8px;
         font-weight: 50;
         position: absolute;
@@ -273,7 +281,7 @@ $colorF: #ffffff;
     }
 
     .ramo_personalizado a {
-        color:$colorF;
+        color: $colorF;
         font-size: 10px;
         font-weight: 0;
         position: absolute;
@@ -285,7 +293,7 @@ $colorF: #ffffff;
     }
 
     .tocados_prendidos h2 {
-        color:$colorF;
+        color: $colorF;
         font-size: 15px;
         font-weight: 300;
         position: absolute;
@@ -294,7 +302,7 @@ $colorF: #ffffff;
     }
 
     .tocados_prendidos p {
-        color:$colorF;
+        color: $colorF;
         font-size: 8px;
         font-weight: 50;
         position: absolute;
@@ -303,7 +311,7 @@ $colorF: #ffffff;
     }
 
     .tocados_prendidos a {
-        color:$colorF;
+        color: $colorF;
         font-size: 10px;
         font-weight: 0;
         position: absolute;
@@ -314,4 +322,114 @@ $colorF: #ffffff;
 
     }
 
+}
+
+
+@media (max-width: 365px) {
+
+    .decoracion_floral {
+
+        h2 {
+            color: $colorF;
+            font-size: 12px;
+            position: absolute;
+            top: 30%;
+            left: 18%;
+        }
+
+        p {
+            text-align: inherit;
+            color: $colorF;
+            font-size: 8px;
+            position: absolute;
+            top: 45%;
+            left: 8%;
+
+        }
+
+        a {
+            color: $colorF;
+            font-size: 8px;
+            font-weight: 300;
+            position: absolute;
+            top: 65%;
+            left: 30%;
+            text-decoration: none;
+        }
+
+    }
+
+
+    .ramo_personalizado {
+
+        h2 {
+            color: $colorF;
+            font-size: 12px;
+            font-weight: 300;
+            position: absolute;
+            top: 30%;
+            left: 15%;
+        }
+
+        p {
+            color: $colorF;
+            font-size: 8px;
+            font-weight: 50;
+            position: absolute;
+            top: 45%;
+            left: 8%;
+    
+        }
+
+        a {
+            color: $colorF;
+            font-size: 8px;
+            font-weight: 0;
+            position: absolute;
+            top: 65%;
+            left: 37%;
+            text-decoration: none;
+    
+    
+        }    
+
+
+    }
+
+    .tocados_prendidos {
+
+        h2 {
+            color: $colorF;
+            font-size: 15px;
+            font-weight: 300;
+            position: absolute;
+            top: 30%;
+            left: 19%;
+        }
+
+        p {
+            color: $colorF;
+            font-size: 8px;
+            font-weight: 50;
+            position: absolute;
+            top: 47%;
+            left: 28%;
+        }
+
+        a {
+            color: $colorF;
+            font-size: 10px;
+            font-weight: 0;
+            position: absolute;
+            top: 60%;
+            left: 38%;
+            text-decoration: none;
+    
+        }
+
+    }    
+     
+   
+
+    
 }

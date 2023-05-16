@@ -9,7 +9,6 @@
     grid-gap: 20px;
     margin-inline: 5%;
 
-
 }
 
 .grid_item {
@@ -52,6 +51,50 @@
             "item_2"
             "item_3"
             "item_4";
+    }
+
+}
+
+@media (max-width: 365px) {
+    .grid-conteiner {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "item_1"
+            "item_2"
+            "item_3"
+            "item_4";
+    }
+
+    .grid_item {
+        display: flex;
+        flex-direction: column;
+        background-color: #f5f3f3;
+        align-items: center;
+        text-align: center;
+
+        h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+            color: #9a3c8eb2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            padding: 3rem;
+
+        }
+
+        p {
+            padding-inline: 1rem;
+            padding-bottom: 0.5rem;
+            font-size: 0.8rem;
+            color: #7c7777;
+        }
+
     }
 
 }

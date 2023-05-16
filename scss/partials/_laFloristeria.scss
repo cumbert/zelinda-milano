@@ -10,6 +10,7 @@
         color: white;
         background-color: #9a3c8eb2;
         font-size: 3rem;
+        
     }
 
     p {
@@ -17,6 +18,36 @@
         padding-top: 4rem;
         color: grey;
         padding-bottom: 3rem;
+    }
+
+
+}
+
+@media (max-width:365px) {
+
+    .la_floristeria {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    
+        h2 {
+            text-align: center;
+            color: white;
+            background-color: #9a3c8eb2;
+            font-size: 1.5rem;            
+        }
+    
+        p {
+            font-size: 0.8rem;
+            padding-top: 2rem;
+            color: grey;
+            padding-bottom: 0rem;
+        }
+    
+    
     }
 
 

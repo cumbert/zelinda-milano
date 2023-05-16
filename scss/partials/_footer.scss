@@ -27,19 +27,14 @@
         .instagram_icon {
             transition: 1s;
             width: 3rem;
-        }
+            &:hover {
+                transform: scale(1.1);
+            }
+        }        
 
-        .instagram_icon:hover {
-            transform: scale(1.1);
-        }
-
-        .facebook_icon {
+         .facebook_icon {
             @extend .instagram_icon;
-        }
-
-        .facebook_icon:hover {
-            @extend .instagram_icon:hover;
-        }
+        }      
 
     }
 }
