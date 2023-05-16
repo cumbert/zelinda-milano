@@ -671,16 +671,62 @@ textarea {
   padding-left: 10rem;
   padding-bottom: 4rem;
 }
-
 .formulario .box {
   padding: 0.5rem;
 }
-
-.formulario textarea {
+.formulario .textarea {
   padding: 6rem;
   padding-left: 0;
 }
 
+@media (max-width: 365) {
+  form {
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  input,
+  textarea {
+    width: 325%;
+  }
+  .floristeria_info {
+    display: block;
+    position: relative;
+    margin-top: 10%;
+  }
+  .contacto {
+    display: flex;
+    max-width: 2000px;
+    flex-direction: column;
+  }
+  .contacto .titles h2 {
+    font-family: "Playfair Display", serif;
+    padding-top: 2rem;
+    font-size: 8rem;
+  }
+  .contacto .titles h4 {
+    color: #ec9bd8;
+    font-size: 2rem;
+  }
+  .contacto .titles p {
+    color: grey;
+    font-family: "Anuphan", sans-serif;
+  }
+  .formulario {
+    display: flex;
+    flex-direction: center;
+    width: 35%;
+    padding-left: 10rem;
+    padding-bottom: 4rem;
+  }
+  .formulario .box {
+    padding: 0.5rem;
+  }
+  .formulario textarea {
+    padding: 6rem;
+    padding-left: 0;
+  }
+}
 .grid_contenedor {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -761,6 +807,27 @@ textarea {
     grid-template-areas: "area_2" "area_1" "area_3";
     padding-top: 4rem;
     padding-bottom: 4rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+    gap: 2rem;
+    margin-inline: 5rem;
+    justify-items: center;
+  }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+  }
+}
+@media (max-width: 365px) {
+  .grid_contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "area_2" "area_1" "area_3";
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
     gap: 2rem;
     margin-inline: 5rem;
     justify-items: center;

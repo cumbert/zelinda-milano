@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "area_1 area_2 area_3";
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 4rem;    
     gap: 2rem;
     margin-inline: 5%;
     align-items: center;
@@ -95,6 +95,31 @@
         grid-template-areas: "area_2" "area_1" "area_3";
         padding-top: 4rem;
         padding-bottom: 4rem;
+        padding-inline-start: 0rem;
+        gap: 2rem;
+        margin-inline: 5rem;
+        justify-items: center;
+
+
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+        background-position: center;
+
+    }
+
+}
+
+@media (max-width: 365px) {
+    .grid_contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "area_2" "area_1" "area_3";
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        padding-inline-start: 0rem;
         gap: 2rem;
         margin-inline: 5rem;
         justify-items: center;
