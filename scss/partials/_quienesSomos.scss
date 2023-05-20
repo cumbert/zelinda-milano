@@ -35,3 +35,51 @@
     width: 300px;
 
 }
+
+@media(max-width:834px){
+
+    .chiara {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.75fr;
+    grid-template-areas:
+        "area_1"          
+        "area_2"
+        "area_3";
+    margin-inline: 20%;
+    gap: 1rem;
+}
+
+.chiara_item_3 {
+    grid-area: area_1;
+    justify-content: center;
+    img {
+        width: 50%
+    };
+    
+
+}
+
+.chiara_item_1 {
+    grid-area: area_2;
+    padding-top: 1.5rem;
+    color: #9a3c8eb2;
+
+}
+
+.chiara_item_2 {
+    grid-area: area_3;
+    color: #535353;
+    font-size: .9rem;
+
+}
+
+.chiara_item_3 img {
+    width: 300px;
+
+}
+
+
+
+}

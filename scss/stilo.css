@@ -8,7 +8,6 @@
 .header {
   display: flex;
   flex-direction: column;
-  background-color: #ec9bd8;
 }
 .header .banner {
   max-width: 100%;
@@ -628,6 +627,37 @@
   width: 300px;
 }
 
+@media (max-width: 834px) {
+  .chiara {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.75fr;
+    grid-template-areas: "area_1" "area_2" "area_3";
+    margin-inline: 20%;
+    gap: 1rem;
+  }
+  .chiara_item_3 {
+    grid-area: area_1;
+    justify-content: center;
+  }
+  .chiara_item_3 img {
+    width: 50%;
+  }
+  .chiara_item_1 {
+    grid-area: area_2;
+    padding-top: 1.5rem;
+    color: rgba(154, 60, 142, 0.6980392157);
+  }
+  .chiara_item_2 {
+    grid-area: area_3;
+    color: #535353;
+    font-size: 0.9rem;
+  }
+  .chiara_item_3 img {
+    width: 300px;
+  }
+}
 form {
   margin-top: 5%;
   flex-direction: column;
@@ -813,7 +843,7 @@ textarea {
             padding-inline-start: 0rem;
     gap: 2rem;
     margin-inline: 5rem;
-    justify-items: center;
+    /* justify-items: center; */
   }
   .logo img {
     max-width: 100%;
@@ -828,8 +858,7 @@ textarea {
     grid-template-areas: "area_2" "area_1" "area_3";
     padding-top: 4rem;
     padding-bottom: 4rem;
-    -webkit-padding-start: 0rem;
-            padding-inline-start: 0rem;
+    /* padding-inline-start: 0rem; */
     gap: 2rem;
     margin-inline: 5rem;
     justify-items: center;
